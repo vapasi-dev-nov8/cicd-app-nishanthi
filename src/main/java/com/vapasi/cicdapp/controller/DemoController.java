@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/message")
     public String message() {
-        return "<H1>My Springboot App</H1>";
+        return "My Spring boot App";
     }
 }
